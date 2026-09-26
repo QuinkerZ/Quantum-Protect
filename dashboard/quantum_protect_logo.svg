@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 160" width="100%" height="100%">
+  <defs>
+    <style>
+      .q-body { fill: none; stroke: #192024; stroke-width: 15; stroke-miterlimit: 10; }
+      .q-slash { fill: none; stroke: #192024; stroke-width: 15; stroke-linecap: square; stroke-miterlimit: 10; }
+      .q-orbit { fill: none; stroke: #54655B; stroke-width: 4.5; stroke-miterlimit: 10; }
+      .q-electron { fill: #54655B; }
+      .brand-title { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 56px; fill: #192024; }
+      .brand-title-light { font-weight: 400; letter-spacing: -0.02em; }
+      .brand-title-bold { font-weight: 800; letter-spacing: -0.02em; }
+      .brand-sub { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; font-weight: 600; fill: #54655B; letter-spacing: 0.28em; }
+    </style>
+  </defs>
+
+  <!-- Q Orbital Symbol (Left) -->
+  <g transform="translate(15, 0)">
+    <!-- Orbit Ellipse (tilted upward to right) -->
+    <ellipse cx="80" cy="80" rx="72" ry="26" class="q-orbit" transform="rotate(-26 80 80)" />
+    
+    <!-- Electron dot on upper right of orbit -->
+    <circle cx="128" cy="42" r="7" class="q-electron" />
+
+    <!-- Main Q Circle -->
+    <circle cx="80" cy="80" r="46" class="q-body" />
+
+    <!-- Q Tail / Slash -->
+    <line x1="64" y1="64" x2="114" y2="114" class="q-slash" />
+  </g>
+
+  <!-- Brand Typography (Right) -->
+  <g transform="translate(195, 0)">
+    <!-- QuantumProtect -->
+    <text x="0" y="86" class="brand-title">
+      <tspan class="brand-title-light">Quantum</tspan><tspan class="brand-title-bold">Protect</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text x="3" y="122" class="brand-sub">POST-QUANTUM SECURE SMART ENERGY</text>
+  </g>
+</svg>
